@@ -1,6 +1,6 @@
 # Marketing Skills for AI Agents — the full SKILL.md library
 
-[![160+ skills](https://img.shields.io/badge/skills-160%2B-0b7285)](#all-skills)
+[![172 skills](https://img.shields.io/badge/skills-172-0b7285)](#all-skills)
 [![Format: Agent Skills](https://img.shields.io/badge/format-SKILL.md-5f3dc4)](https://agentskills.io/specification)
 [![Works with Claude Code, Codex & Claude.ai](https://img.shields.io/badge/works%20with-Claude%20Code%20%7C%20Codex%20%7C%20Claude.ai-1c7ed6)](#install)
 [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-2b8a3e)](https://creativecommons.org/licenses/by/4.0/)
@@ -12,29 +12,31 @@ decision rules, an output template and sources — loaded only when a task needs
 
 By [**Afeez Adebayo**](https://afeezadebayo.com) · [Browse online](https://afeezadebayo.com/skills-md/marketing/) · [LinkedIn](https://www.linkedin.com/in/afeez-adebayo/) · [X](https://x.com/za_icon) · [Newsletter](https://afeezadebayo.com/newsletter/)
 
-> **This repo is the hub** — browse every skill in one place and download whole-category bundles.
-> To **clone and install one category**, use its dedicated repo below (each is folder-per-skill, ready to drop into an agent).
+> **This repo is the hub monorepo** — all 172 skills live here, one folder per skill, grouped by category
+> (`category/skill-name/SKILL.md`), matching the layout used by `anthropics/skills`.
+> Each category is also mirrored as its own standalone repo below, for anyone who only wants one set.
 
-## Skill repositories by category
+## Skill categories
 
-| Category | Install-ready repo | Bundle (bulk upload) |
-|---|---|---|
-| Technical SEO | [technical-seo-skills](https://github.com/afeezadebayo/technical-seo-skills) | [.zip](afeezadebayo-content-seo-skills-single-folder.zip) on site |
-| Content & On-Page SEO | [content-seo-skills](https://github.com/afeezadebayo/content-seo-skills) | — |
-| AEO & GEO (AI Search) | [aeo-geo-skills](https://github.com/afeezadebayo/aeo-geo-skills) | — |
-| International SEO | [international-seo-skills](https://github.com/afeezadebayo/international-seo-skills) | — |
-| CRM & Lifecycle | [crm-lifecycle-skills](https://github.com/afeezadebayo/crm-lifecycle-skills) | — |
-| Performance Marketing | [performance-marketing-skills](https://github.com/afeezadebayo/performance-marketing-skills) | — |
-| Growth Marketing | [growth-marketing-skills](https://github.com/afeezadebayo/growth-marketing-skills) | — |
-| Product-Led Growth | [product-led-growth-skills](https://github.com/afeezadebayo/product-led-growth-skills) | — |
-| Conversion Rate Optimisation | [conversion-rate-optimization-skills](https://github.com/afeezadebayo/conversion-rate-optimization-skills) | — |
-| Product Marketing & GTM | [product-marketing-skills](https://github.com/afeezadebayo/product-marketing-skills) | — |
-| Content, Copy & PR | [content-copy-pr-skills](https://github.com/afeezadebayo/content-copy-pr-skills) | — |
-| Social Media | [social-media-skills](https://github.com/afeezadebayo/social-media-skills) | — |
-| GTM Engineering | [gtm-engineering-skills](https://github.com/afeezadebayo/gtm-engineering-skills) | — |
+13 categories, 172 skills, each a self-contained `category/skill-name/SKILL.md` folder in this repo.
 
-The `afeezadebayo-*-single-folder.zip` files in this repo bundle each category as flat `name.md` files for **bulk
-upload** to a Claude Project, a custom GPT or a knowledge base. For a single category you can also download bundles from the [library page](https://afeezadebayo.com/skills-md/marketing/).
+| Category | Skills | Folder | Standalone repo |
+|---|---|---|---|
+| Technical SEO | 16 | [`technical-seo/`](technical-seo) | [technical-seo-skills](https://github.com/afeezadebayo/technical-seo-skills) |
+| Content & On-Page SEO | 13 | [`content-seo/`](content-seo) | [content-seo-skills](https://github.com/afeezadebayo/content-seo-skills) |
+| AEO & GEO (AI Search) | 13 | [`aeo-geo/`](aeo-geo) | [aeo-geo-skills](https://github.com/afeezadebayo/aeo-geo-skills) |
+| International SEO | 13 | [`international-seo/`](international-seo) | [international-seo-skills](https://github.com/afeezadebayo/international-seo-skills) |
+| CRM & Lifecycle | 13 | [`crm-lifecycle/`](crm-lifecycle) | [crm-lifecycle-skills](https://github.com/afeezadebayo/crm-lifecycle-skills) |
+| Performance Marketing | 13 | [`performance-marketing/`](performance-marketing) | [performance-marketing-skills](https://github.com/afeezadebayo/performance-marketing-skills) |
+| Growth Marketing | 13 | [`growth-marketing/`](growth-marketing) | [growth-marketing-skills](https://github.com/afeezadebayo/growth-marketing-skills) |
+| Product-Led Growth | 13 | [`product-led-growth/`](product-led-growth) | [product-led-growth-skills](https://github.com/afeezadebayo/product-led-growth-skills) |
+| Conversion Rate Optimisation | 13 | [`conversion-rate-optimization/`](conversion-rate-optimization) | [conversion-rate-optimization-skills](https://github.com/afeezadebayo/conversion-rate-optimization-skills) |
+| Product Marketing & GTM | 13 | [`product-marketing/`](product-marketing) | [product-marketing-skills](https://github.com/afeezadebayo/product-marketing-skills) |
+| Content, Copy & PR | 13 | [`content-copy-pr/`](content-copy-pr) | [content-copy-pr-skills](https://github.com/afeezadebayo/content-copy-pr-skills) |
+| Social Media | 13 | [`social-media/`](social-media) | [social-media-skills](https://github.com/afeezadebayo/social-media-skills) |
+| GTM Engineering | 13 | [`gtm-engineering/`](gtm-engineering) | [gtm-engineering-skills](https://github.com/afeezadebayo/gtm-engineering-skills) |
+
+Use this hub if you want everything in one clone, or install category repos individually if you only need one or two sets.
 
 ## Install
 
@@ -42,13 +44,17 @@ upload** to a Claude Project, a custom GPT or a knowledge base. For a single cat
 
 | You want to… | Use | How |
 |---|---|---|
-| Run skills in **Claude Code / Codex** | a category repo (folder-per-skill) | `git clone` it, copy a skill folder into `~/.claude/skills/` or `~/.agents/skills/` |
-| Upload to **Claude.ai / Desktop** | a single skill folder | zip the folder → **Settings → Capabilities → Skills → Upload** |
-| **Bulk-load** a Project / custom GPT / knowledge base | a `…single-folder.zip` bundle | upload all files at once |
-| Just **read / browse** | this repo | open any `.md` below |
+| Run skills in **Claude Code / Codex** | this hub, or one category repo | `git clone` it, copy a `category/skill-name` folder into `~/.claude/skills/` or `~/.agents/skills/` |
+| Upload to **Claude.ai / Desktop** | a single skill folder | zip the `skill-name/` folder → **Settings → Capabilities → Skills → Upload** |
+| **Bulk-load** a Project / custom GPT / knowledge base | several skill folders at once | upload the `SKILL.md` files directly, or browse bundles on the [library page](https://afeezadebayo.com/skills-md/marketing/) |
+| Just **read / browse** | this repo | open any `category/skill-name/SKILL.md` below |
 
 ```bash
 # Example: install the XML sitemaps skill in Claude Code
+git clone https://github.com/afeezadebayo/marketing-skills.git
+cp -r marketing-skills/technical-seo/xml-sitemaps ~/.claude/skills/
+
+# Or from the standalone category repo
 git clone https://github.com/afeezadebayo/technical-seo-skills.git
 cp -r technical-seo-skills/xml-sitemaps ~/.claude/skills/
 ```
@@ -63,7 +69,7 @@ helps the agent pick the right skill.
 
 ## All skills
 
-### [technical-seo](https://github.com/afeezadebayo/technical-seo-skills)
+### [technical-seo](technical-seo) — 16 skills
 - technical-seo-audit: Technical SEO Audit
 - crawlability-indexation-audit: Crawlability and Indexation Audit
 - robots-directives: Robots.txt and Robots Directives
@@ -77,8 +83,11 @@ helps the agent pick the right skill.
 - internal-linking: Internal Linking and Site Architecture
 - log-file-analysis: Log File Analysis for SEO
 - faceted-navigation-parameters: Faceted Navigation and URL Parameters
+- hreflang-implementation: hreflang Implementation and Debugging
+- image-seo: Image SEO
+- international-technical-seo: International Technical SEO
 
-### [content-seo](https://github.com/afeezadebayo/content-seo-skills)
+### [content-seo](content-seo) — 13 skills
 - content-seo-audit: Content SEO Audit
 - keyword-research: Keyword Research
 - search-intent-serp-analysis: Search Intent and SERP Analysis
@@ -87,13 +96,13 @@ helps the agent pick the right skill.
 - seo-content-writing: SEO Content Writing
 - title-tags-meta-descriptions: Title Tags and Meta Descriptions
 - on-page-seo: On-Page SEO Optimisation
-- image-seo: Image SEO
 - eeat-content-quality: E-E-A-T and Content Quality
 - content-refresh: Content Refresh and Decay Recovery
 - keyword-cannibalisation: Keyword Cannibalisation
 - content-pruning: Content Pruning and Consolidation
+- internal-linking: Internal Linking for Content SEO
 
-### [aeo-geo](https://github.com/afeezadebayo/aeo-geo-skills)
+### [aeo-geo](aeo-geo) — 13 skills
 - ai-search-visibility-audit: AI Search Visibility Audit
 - ai-visibility-tracking: AI Visibility Tracking and Reporting
 - query-fan-out-mapping: Query Fan-Out and Prompt Research
@@ -108,52 +117,7 @@ helps the agent pick the right skill.
 - agent-readiness: Agent Readiness for AI Browsers and Assistants
 - ai-commerce-product-visibility: Product Visibility in AI Shopping and Commerce
 
-### [crm-lifecycle](https://github.com/afeezadebayo/crm-lifecycle-skills)
-- lifecycle-marketing-audit: Lifecycle Marketing Audit
-- customer-journey-mapping: Customer Journey Mapping for Lifecycle
-- lifecycle-segmentation: Lifecycle Segmentation and Engagement Tiers
-- crm-data-hygiene: CRM Data Hygiene and Enrichment
-- lead-scoring-routing: Lead Scoring and Routing
-- onboarding-activation: Onboarding and Activation Sequences
-- retention-churn-prevention: Retention and Churn Prevention
-- win-back-reactivation: Win-Back and Reactivation Campaigns
-- email-deliverability: Email Deliverability and Inbox Placement
-- lifecycle-email-copy-design: Lifecycle Email Copy and Design
-- sms-whatsapp-lifecycle: SMS and WhatsApp Lifecycle Messaging
-- lifecycle-experimentation: Lifecycle Experimentation and Holdout Testing
-- lifecycle-reporting-attribution: Lifecycle Reporting and Attribution
-
-### [performance-marketing](https://github.com/afeezadebayo/performance-marketing-skills)
-- paid-media-audit: Paid Media Audit
-- media-planning-budgeting: Media Planning and Budget Allocation
-- conversion-tracking-capi: Conversion Tracking, Consent Mode and Conversions API
-- incrementality-testing: Incrementality Testing: Lift and Geo Experiments
-- marketing-mix-modelling: Marketing Mix Modelling
-- google-search-ads: Google Search Ads and AI Max
-- performance-max-shopping: Performance Max and Shopping
-- meta-ads: Meta Ads (Facebook and Instagram)
-- paid-social-tiktok-linkedin: TikTok, LinkedIn and Other Paid Social
-- ad-creative-testing: Ad Creative Strategy and Testing
-- landing-page-cro: Landing Pages and Conversion Rate Optimisation for Paid Traffic
-- audience-first-party-data: Audiences and First-Party Data for Paid Media
-- paid-media-reporting: Paid Media Reporting and Attribution
-
-### [growth-marketing](https://github.com/afeezadebayo/growth-marketing-skills)
-- growth-audit: Growth Audit
-- north-star-metric-tree: North Star Metric and Metric Tree
-- growth-model: Growth Model and Forecasting
-- growth-experiment-backlog: Growth Experiment Backlog and Cadence
-- experiment-design: Experiment Design for Growth
-- experiment-readout: Experiment Readouts and Analysis
-- acquisition-channel-testing: Acquisition Channel Testing
-- growth-loops: Growth Loops
-- referral-programmes: Referral Programmes
-- funnel-analysis: Funnel Analysis
-- cohort-retention-analysis: Cohort Retention Analysis
-- tracking-plan: Tracking Plan and Event Taxonomy
-- growth-reporting: Growth Reporting and Attribution
-
-### [international-seo](https://github.com/afeezadebayo/international-seo-skills)
+### [international-seo](international-seo) — 13 skills
 - international-seo-audit: International SEO Audit
 - international-market-selection: International Market Selection and Prioritisation
 - international-site-structure: International Site Structure: ccTLDs, Subfolders and Subdomains
@@ -168,22 +132,67 @@ helps the agent pick the right skill.
 - international-expansion-migration: International Expansion and Site Migrations
 - international-seo-reporting: International SEO Reporting by Market
 
-### [product-marketing](https://github.com/afeezadebayo/product-marketing-skills)
-- product-marketing-audit: Product Marketing Audit
-- positioning: Positioning
-- messaging-framework: Messaging Framework
-- ideal-customer-profile: Ideal Customer Profile and Personas
-- customer-research-interviews: Customer Research and Jobs-to-Be-Done Interviews
-- competitive-intelligence: Competitive Intelligence and Battlecards
-- win-loss-analysis: Win-Loss Analysis
-- go-to-market-plan: Go-to-Market Plan
-- product-launch: Product Launches
-- pricing-packaging: Pricing and Packaging
-- sales-enablement: Sales Enablement
-- case-studies-customer-proof: Case Studies and Customer Proof
-- partner-marketing: Partner Marketing and Co-Marketing
+### [crm-lifecycle](crm-lifecycle) — 13 skills
+- lifecycle-marketing-audit: Lifecycle Marketing Audit
+- customer-journey-mapping: Customer Journey Mapping for Lifecycle
+- lifecycle-segmentation: Lifecycle Segmentation and Engagement Tiers
+- crm-data-hygiene: CRM Data Hygiene and Enrichment
+- lead-scoring-routing: Lead Scoring and Routing
+- onboarding-activation: Onboarding and Activation Sequences
+- retention-churn-prevention: Retention and Churn Prevention
+- win-back-reactivation: Win-Back and Reactivation Campaigns
+- email-deliverability: Email Deliverability and Inbox Placement
+- lifecycle-email-copy-design: Lifecycle Email Copy and Design
+- sms-whatsapp-lifecycle: SMS and WhatsApp Lifecycle Messaging
+- lifecycle-experimentation: Lifecycle Experimentation and Holdout Testing
+- lifecycle-reporting-attribution: Lifecycle Reporting and Attribution
 
-### [conversion-rate-optimization](https://github.com/afeezadebayo/conversion-rate-optimization-skills)
+### [performance-marketing](performance-marketing) — 13 skills
+- paid-media-audit: Paid Media Audit
+- media-planning-budgeting: Media Planning and Budget Allocation
+- conversion-tracking-capi: Conversion Tracking, Consent Mode and Conversions API
+- incrementality-testing: Incrementality Testing: Lift and Geo Experiments
+- marketing-mix-modelling: Marketing Mix Modelling
+- google-search-ads: Google Search Ads and AI Max
+- performance-max-shopping: Performance Max and Shopping
+- meta-ads: Meta Ads (Facebook and Instagram)
+- paid-social-tiktok-linkedin: TikTok, LinkedIn and Other Paid Social
+- ad-creative-testing: Ad Creative Strategy and Testing
+- landing-page-cro: Landing Pages and Conversion Rate Optimisation for Paid Traffic
+- audience-first-party-data: Audiences and First-Party Data for Paid Media
+- paid-media-reporting: Paid Media Reporting and Attribution
+
+### [growth-marketing](growth-marketing) — 13 skills
+- growth-audit: Growth Audit
+- north-star-metric-tree: North Star Metric and Metric Tree
+- growth-model: Growth Model and Forecasting
+- growth-experiment-backlog: Growth Experiment Backlog and Cadence
+- experiment-design: Experiment Design for Growth
+- experiment-readout: Experiment Readouts and Analysis
+- acquisition-channel-testing: Acquisition Channel Testing
+- growth-loops: Growth Loops
+- referral-programmes: Referral Programmes
+- funnel-analysis: Funnel Analysis
+- cohort-retention-analysis: Cohort Retention Analysis
+- tracking-plan: Tracking Plan and Event Taxonomy
+- growth-reporting: Growth Reporting and Attribution
+
+### [product-led-growth](product-led-growth) — 13 skills
+- plg-audit: Product-Led Growth Audit
+- plg-strategy: Product-Led Growth Strategy
+- free-model-design: Free Model Design: Freemium, Free Trials and Reverse Trials
+- in-product-onboarding: In-Product Onboarding
+- feature-adoption: Feature Adoption
+- product-qualified-leads: Product-Qualified Leads
+- product-led-sales: Product-Led Sales
+- in-app-upgrade-prompts: In-App Upgrade Prompts and Paywalls
+- team-expansion-invites: Team Expansion and Invites
+- in-app-messaging: In-App Messaging
+- templates-integrations-growth: Templates, Integrations and Marketplace Growth
+- product-education: Product Education and Academy
+- plg-metrics: PLG Metrics and Reporting
+
+### [conversion-rate-optimization](conversion-rate-optimization) — 13 skills
 - cro-audit: CRO Audit
 - conversion-research: Conversion Research Methods
 - landing-page-optimisation: Landing Page and Homepage Optimisation
@@ -198,7 +207,22 @@ helps the agent pick the right skill.
 - cro-test-planning: CRO Test Planning and Prioritisation
 - cro-reporting: CRO Programme Reporting
 
-### [content-copy-pr](https://github.com/afeezadebayo/content-copy-pr-skills)
+### [product-marketing](product-marketing) — 13 skills
+- product-marketing-audit: Product Marketing Audit
+- positioning: Positioning
+- messaging-framework: Messaging Framework
+- ideal-customer-profile: Ideal Customer Profile and Personas
+- customer-research-interviews: Customer Research and Jobs-to-Be-Done Interviews
+- competitive-intelligence: Competitive Intelligence and Battlecards
+- win-loss-analysis: Win-Loss Analysis
+- go-to-market-plan: Go-to-Market Plan
+- product-launch: Product Launches
+- pricing-packaging: Pricing and Packaging
+- sales-enablement: Sales Enablement
+- case-studies-customer-proof: Case Studies and Customer Proof
+- partner-marketing: Partner Marketing and Co-Marketing
+
+### [content-copy-pr](content-copy-pr) — 13 skills
 - content-marketing-audit: Content Marketing Audit
 - content-strategy: Content Strategy
 - editorial-operations: Editorial Operations and Content Calendar
@@ -213,7 +237,7 @@ helps the agent pick the right skill.
 - content-repurposing: Content Repurposing and Distribution
 - content-pr-measurement: Content and PR Measurement
 
-### [social-media](https://github.com/afeezadebayo/social-media-skills)
+### [social-media](social-media) — 13 skills
 - social-media-audit: Social Media Audit
 - social-media-strategy: Social Media Strategy
 - linkedin-organic: LinkedIn Organic Growth
@@ -228,20 +252,20 @@ helps the agent pick the right skill.
 - creator-employee-advocacy: Creator Partnerships and Employee Advocacy
 - social-media-reporting: Social Media Reporting
 
-### [product-led-growth](https://github.com/afeezadebayo/product-led-growth-skills)
-- plg-audit: Product-Led Growth Audit
-- plg-strategy: Product-Led Growth Strategy
-- free-model-design: Free Model Design: Freemium, Free Trials and Reverse Trials
-- in-product-onboarding: In-Product Onboarding
-- feature-adoption: Feature Adoption
-- product-qualified-leads: Product-Qualified Leads
-- product-led-sales: Product-Led Sales
-- in-app-upgrade-prompts: In-App Upgrade Prompts and Paywalls
-- team-expansion-invites: Team Expansion and Invites
-- in-app-messaging: In-App Messaging
-- templates-integrations-growth: Templates, Integrations and Marketplace Growth
-- product-education: Product Education and Academy
-- plg-metrics: PLG Metrics and Reporting
+### [gtm-engineering](gtm-engineering) — 13 skills
+- gtm-engineering-audit: GTM Engineering Audit
+- clay-table-design: Clay Table Design
+- enrichment-waterfalls: Enrichment Waterfalls
+- icp-account-scoring: ICP and Account Scoring
+- signal-based-outbound: Signal-Based Outbound
+- ai-copy-columns: AI Copy Columns
+- data-deduplication-normalisation: Data Deduplication and Normalisation
+- crm-sync-routing: CRM Sync and Routing
+- outbound-infrastructure: Outbound Infrastructure and Deliverability
+- gtm-workflow-qa: GTM Workflow QA
+- gtm-cost-control: GTM Cost Control
+- gtm-workflow-documentation: GTM Workflow Documentation
+- gtm-reporting: GTM Reporting
 
 ## Adapt them
 
